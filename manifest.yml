@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: aplicacao-de-teste-lgusilva
+  host: aplicacao-de-teste-lgusilva
+  disk_quota: 1024M
+  services:
+  - aplicacao-de-teste-lgusilva-AdvancedMobileAccess
+  - aplicacao-de-teste-lgusilva-imfpush
+  - aplicacao-de-teste-lgusilva-cloudantNoSQLDB
